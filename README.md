@@ -26,16 +26,16 @@ Para ejecutar el script, debes tener permisos de superusuario(root). Aquí hay u
 3. **Ejecuta el script:**
    
    ```bash
-  sudo ./user_management.sh
+   sudo ./user_management.sh
 
 ## Panel de Ayuda
 El panel de ayuda se puede invocar con la opción h). Proporciona detalles sobre cómo usar las diferentes funcionalidades del script.
 
-```bash
-[+] Welcome to Help Menu, here you can find main options for user management tool:
-[+] Add more users enter a)
-[+] Delete users enter d)
-[+] Modify user parameters enter m)
+   ```bash
+   [+] Welcome to Help Menu, here you can find main options for user management tool:
+   [+] Add more users enter a)
+   [+] Delete users enter d)
+   [+] Modify user parameters enter m)
 
 ## Agregar Usuario
 El script permite agregar usuarios con configuraciones predeterminadas o personalizadas.
@@ -46,9 +46,9 @@ El script permite agregar usuarios con configuraciones predeterminadas o persona
 2. **Configuraciones personalizadas:**
    Se permite ingresar **UID** y la ruta del **directorio home**.
 
-```bash
-Do you want to use default settings for the user? Please enter yes or no:
-Enter username: 
+   ```bash
+   Do you want to use default settings for the user? Please enter yes or no:
+   Enter username: 
 
 
 
