@@ -30,8 +30,7 @@ Para ejecutar el script, debes tener permisos de superusuario(root). Aquí hay u
 
 ## Panel de Ayuda
 El panel de ayuda se puede invocar con la opción h). Proporciona detalles sobre cómo usar las diferentes funcionalidades del script.
-   ```bash
-   cd /home/battu
+
    [+] Welcome to Help Menu, here you can find main options for user management tool:
    [+] Add more users enter a)
    [+] Delete users enter d)
@@ -54,7 +53,7 @@ El script permite agregar usuarios con configuraciones predeterminadas o persona
 ## Eliminar Usuario
 Permite eliminar un usuario existente del sistema. Asegúrate de usar esta opción con precaución, ya que el usuario será eliminado permanentement
 
-   ```bash
+   
    Enter username:
 
 ## Modificar Usuario
@@ -81,9 +80,9 @@ Please enter parameter for change: uid
 Enter new uid for the user: 1001
 
 ### Advertencias
-Este script debe ser ejecutado con permisos de superusuario.
-Asegúrate de ingresar correctamente los parámetros para evitar errores.
-Al eliminar usuarios, se eliminarán permanentemente del sistema junto con sus archivos de configuración en el directorio home.
+1. Este script debe ser ejecutado con permisos de superusuario.
+2. Asegúrate de ingresar correctamente los parámetros para evitar errores.
+3. Al eliminar usuarios, se eliminarán permanentemente del sistema junto con sus archivos de configuración en el directorio home.
 
 ### Contribución
 Las contribuciones son bienvenidas. Por favor, crea un fork de este repositorio, realiza tus cambios y envía un pull request.
