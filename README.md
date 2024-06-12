@@ -30,12 +30,16 @@ Para ejecutar el script, debes tener permisos de superusuario(root). Aquí hay u
 
 ## Panel de Ayuda
 El panel de ayuda se puede invocar con la opción h). Proporciona detalles sobre cómo usar las diferentes funcionalidades del script.
-
+   
+   ```bash
    [+] Welcome to Help Menu, here you can find main options for user management tool:
-   [+] Add more users enter a)
-   [+] Delete users enter d)
-   [+] Modify user parameters enter m)
 
+   [+] Add more users enter a)
+  
+   [+] Delete users enter d)
+  
+   [+] Modify user parameters enter m)
+   ```
 
 ### Agregar Usuario
 El script permite agregar usuarios con configuraciones predeterminadas o personalizadas.
@@ -53,8 +57,9 @@ El script permite agregar usuarios con configuraciones predeterminadas o persona
 ## Eliminar Usuario
 Permite eliminar un usuario existente del sistema. Asegúrate de usar esta opción con precaución, ya que el usuario será eliminado permanentement
 
-   
+   ```bash
    Enter username:
+   ```
 
 ## Modificar Usuario
 Permite modificar varios parámetros de un usuario existente. Los parámetros que se pueden cambiar son:
@@ -68,16 +73,24 @@ Permite modificar varios parámetros de un usuario existente. Los parámetros qu
 ### Ejemplos de Uso
 #### Agregar un usuario con configuraciones predeterminadas
 
+```bash
 Do you want to use default settings for the user? Please enter yes or no: yes
 Enter username: newuser
+```
 
 #### Eliminar un usuario:
+```bash
 Enter username: olduser
+```
 
 #### Modificar el UID de un usuario:
+```bash
 Enter the user: existinguser
+
 Please enter parameter for change: uid
+
 Enter new uid for the user: 1001
+```
 
 ### Advertencias
 1. Este script debe ser ejecutado con permisos de superusuario.
