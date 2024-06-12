@@ -1,2 +1,2 @@
-# bash_tools
-Bash toolkit to satisfy some repetitive tasks
+# user_management_tool
+Bash tool to create, delete and modify user on Linux System
